@@ -1,5 +1,5 @@
 # Snake Game
-# my first game
+# my first game using Pygame
 
 # imports
 import pygame, sys, random, time
