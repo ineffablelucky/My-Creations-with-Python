@@ -1,5 +1,5 @@
-#i made this within 3 days od starting Python Programming. so you can see it can be done really short with list comprehensions 
-# and for loops
+#i made this within 3 days of starting Python Programming. so you can see, it can be done really short with list comprehensions 
+# and for loops but at that time, i only used what i knew.
 
 list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 row1 = [' ', "|", ' ', '|', ' ']
