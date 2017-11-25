@@ -1,3 +1,6 @@
+#i made this within 3 days od starting Python Programming. so you can see it can be done really short with list comprehensions 
+# and for loops
+
 list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 row1 = [' ', "|", ' ', '|', ' ']
 row2 = [' ', "|", ' ', '|', ' ']
