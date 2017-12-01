@@ -71,8 +71,7 @@ while True:
             sys.exit()
         elif event.type == pygame.KEYDOWN:  # KEYDOWN for when key is kept pressed and not release
             # here i am marking keys for movements of snake. up,down right and left arrow.
-            if event.key == pygame.K_RIGHT or event.key == ord(
-                    'd'):  # K_right denotes right arrow key #"ord()" will give ascii value of aphlabets
+            if event.key == pygame.K_RIGHT or event.key == ord('d'):  # K_right denotes right arrow key #"ord()" will give ascii value of aphlabets
                 changeto = "Right"  # direction changed to right
             elif event.key == pygame.K_LEFT or event.key == ord('a'):
                 changeto = "Left"
@@ -138,4 +137,4 @@ while True:
     showScore()
     pygame.display.flip()  # to update the window
     fpsController.tick(15)  # to limit the speed of snake
-# pyinstaller to run in any software
+
