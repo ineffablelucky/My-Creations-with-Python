@@ -3,7 +3,7 @@
 
 # imports
 import pygame, sys, random, time
-pygame.init()
+pygame.init() # for displaying fonts(i solved my font error with this line)
 
 # checking Initializing errors(this will not be displayed on the console.)
 check_Errors = pygame.init()
