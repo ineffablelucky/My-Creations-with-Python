@@ -3,6 +3,7 @@
 
 # imports
 import pygame, sys, random, time
+pygame.init()
 
 # checking Initializing errors(this will not be displayed on the console.)
 check_Errors = pygame.init()
