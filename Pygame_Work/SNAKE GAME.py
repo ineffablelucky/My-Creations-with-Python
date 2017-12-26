@@ -3,6 +3,7 @@
 
 # imports
 import pygame, sys, random, time
+pygame.init() # for displaying fonts(i solved my font error with this line)
 
 # Player Surface
 playSurface = pygame.display.set_mode((720, 460))
